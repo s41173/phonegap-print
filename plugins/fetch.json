@@ -1,0 +1,26 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-printer": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/katzer/cordova-plugin-printer.git"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-bluetooth-printer": {
+    "source": {
+      "type": "local",
+      "path": "D:\\firstApp\\node_modules\\BluetoothPrinter"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

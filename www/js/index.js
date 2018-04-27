@@ -52,4 +52,17 @@ var app = {
     }
 };
 
+function startx(){
+    
+    BTPrinter.list(function(data){
+        console.log("Success");
+        console.log(data); //list of printer in data array
+        alert(data);
+    },function(err){
+        console.log("Error");
+        console.log(err);
+        alert(err);
+    })
+}
+
 app.initialize();
